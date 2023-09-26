@@ -44,3 +44,20 @@ body {
         width: 100%;
     }
 }
+
+
+.scrolling-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.scrolling-text {
+    font-size: 18px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
