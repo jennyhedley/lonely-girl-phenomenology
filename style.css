@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .background-image {
@@ -55,11 +56,36 @@ body {
     color: black;
     text-align: center;
     padding: 20px 0;
-    overflow: hidden; /* Ensure the entire text is visible */
+    overflow: hidden; /* Ensure the entire text is visible marquee */
 }
 
 .scrolling-text {
     font-size: 18px;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap; /* Prevent text from wrapping marquee */
 }
 
+/* spinning animation for tiles and poochie diary */
+@keyframes spin {
+    0% {
+        transform: scale(0.5) rotate(0deg); /* Start smaller and unrotated */
+    }
+    50% {
+        transform: scale(1.2) rotate(180deg); /* Scale up and rotate halfway */
+    }
+    100% {
+        transform: scale(1) rotate(360deg); /* Return to normal size and rotation */
+    }
+}
+
+/* Apply the spinning animation to images with the initial-animation class */
+.initial-animation {
+    animation: spin 2s linear; /* Adjust the duration as needed */
+    animation-fill-mode: both;
+}
+
+/* Apply styles for the scaling effect */
+.scale-animation {
+    animation: spin 2s linear; /* Adjust the duration as needed */
+    animation-fill-mode: both;
+    transform-origin: center; /* Rotate and scale from the center */
+}
