@@ -5,7 +5,7 @@ body {
 }
 
 .background-image {
-    background-image: url('https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/background.png?v=1695688777313'); 
+    background-image: url('https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/background-1.png?v=1695778077407'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ body {
     background-color: hotpink;
     color: black;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     overflow: hidden; /* Ensure the entire text is visible */
 }
 
