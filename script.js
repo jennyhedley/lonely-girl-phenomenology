@@ -74,12 +74,12 @@ document.addEventListener("DOMContentLoaded", function () {
   function randomImage() {
     // Return a random image path
     let images = [
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/dollar.png?v=1695688755592",
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/dollars-sm.JPG?v=1695691649738",
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/starving-1s.png?v=1695691809352",
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/starving-2s.png?v=1695691813057",
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/cryingcat-s.png?v=1695692867387",
-      "https://cdn.glitch.global/5bfeed9e-86d2-40a1-9c56-e0e77d88e5dd/crycloud-s.png?v=1695692997456",
+      "./img/dollar.png",
+      "./img/dollars-sm.jpg",
+      "./img/starving-1s.png",
+      "./img/starving-2s.png",
+      "./img/cryingcat-s.png",
+      "./img/crycloud-s.png",
     ];
     return images[Math.floor(Math.random() * images.length)];
   }
